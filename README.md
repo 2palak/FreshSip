@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# FreshSip 🍹
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I've developed a dynamic web application using the MERN stack (MongoDB, Express.js, React, Node.js) that offers a seamless and secure user experience. FreshSip is your go-to destination for all drinks and snacks, whether you're in the mood for a refreshing shake, a soothing tea, a robust coffee, or some tasty treats to go with it!
 
-## Available Scripts
+This is my first project using the MERN stack, and I'm thrilled with how it turned out! 😊
 
-In the project directory, you can run:
+## ✨ Features:
 
-### `npm start`
+- **User Registration**: Easy sign-up process.
+- **User Login**: Secure login with the option to reset forgotten passwords.
+- **Add to Cart**: Effortlessly add your favorite items.
+- **Remove from Cart**: Remove items with a click.
+- **Checkout**: Smooth and straightforward checkout process.
+- **Order History**: View all your previous orders in one place.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🔒 Security:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+All user data is securely stored in MongoDB, and passwords are encrypted to ensure utmost security.
 
-### `npm test`
+## 🚀 Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running, follow these simple steps.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js
+- MongoDB
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repo:
+    ```bash
+    git clone https://github.com/yourusername/FreshSip.git
+    ```
 
-### `npm run eject`
+2. Install NPM packages:
+    ```bash
+    cd FreshSip
+    npm install
+    cd client
+    npm install
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Set up your environment variables:
+    - Create a `.env` file in the root directory.
+    - Add the following variables:
+        ```plaintext
+        MONGO_URI=your_mongodb_connection_string
+        JWT_SECRET=your_jwt_secret
+        ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Running the Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Start the backend server:
+    ```bash
+    npm run server
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Start the frontend development server:
+    ```bash
+    cd client
+    npm start
+    ```
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
