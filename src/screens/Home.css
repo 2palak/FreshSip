@@ -32,19 +32,19 @@ hr {
 }
 
 .card {
-    width: 18rem; /* Adjust width for better layout */
+    width: 18rem; 
     margin: 2px; 
-    margin-bottom: 20px; /* Added space between cards */
+    margin-bottom: 20px; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ensure the card body takes full height */
-    background-color: #ecf0f1; /* Card background color */
-    border: 1px solid #ddd; /* Card border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
+    justify-content: space-between; 
+    background-color: #ecf0f1; 
+    border: 1px solid #ddd; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .card-body {
-    flex-grow: 1; /* Allow card body to grow */
+    flex-grow: 1; 
 }
 
 .card-title {
@@ -55,14 +55,13 @@ hr {
 }
 
 .card-text {
-    flex-grow: 1; /* Allow description to take available space */
+    flex-grow: 1;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* Limit to 3 lines */
+    -webkit-line-clamp: 3; 
     -webkit-box-orient: vertical;
-    color: #2c3e50; /* Text color */
-}
+    color: #2c3e50; 
 
 .total-price {
     color: #2c3e50;
@@ -82,20 +81,20 @@ hr {
 }
 
 .card-container {
-    margin-bottom: 20px; /* Space between rows */
-    margin-right: 30px; /* Space between columns */
+    margin-bottom: 20px; 
+    margin-right: 30px;
 }
 
 .home-container {
-    background-image: url('C:\Project MERN\mernapp\bgg.png'); /* Update the path accordingly */
+    background-image: url('C:\Project MERN\mernapp\bgg.png'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    min-height: 100vh; /* Ensure it covers the full height of the viewport */
+    min-height: 100vh; 
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.8); /* Optional: Adds a slight white background to make content readable */
+    background-color: rgba(255, 255, 255, 0.8); 
     border-radius: 10px;
     padding: 20px;
     margin-top: 20px;
