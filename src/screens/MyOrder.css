@@ -1,0 +1,110 @@
+.myorder-container {
+    background-image: url('https://i.pinimg.com/564x/92/46/50/924650bbe679764dcb8c0d7fa386e76c.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+
+.container {
+    padding: 20px;
+    /*background-image: url('https://i.pinimg.com/564x/90/13/7e/90137e9c4a842faa628143bad5e6d5de.jpg'); */
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.order-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.order-date {
+    text-align: center;
+    font-size: 1.5em;
+    color: #7e7e08;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-date::before {
+    content: "📅";
+    margin-right: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.order-group {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: 2px solid #7aab96;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin: 10px;
+    flex: 1 0 21%; /* Adjust this percentage to control the number of cards per row */
+    max-width: 300px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #59670a;
+    font-size: 1.2em;
+    font-family: 'Georgia', serif;
+}
+
+.card-body {
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    height: 120px;
+    object-fit: cover;
+}
+
+.card .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container .quantity,
+.container .size {
+    color: #701040; 
+    font-size: 1em;
+}
+
+.container .price {
+    color: rgb(249, 91, 91); 
+    font-size: 1.2em;
+    font-family: 'Georgia', serif;
+}
+
+.no-orders {
+    text-align: center;
+    font-size: 1.5em;
+    color: #7e7e08;
+    margin-top: 50px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}

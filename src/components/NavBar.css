@@ -1,0 +1,44 @@
+/* NavBar.css */
+.navbar {
+    background-color: #93a79f !important; 
+  }
+  
+  .navbar-brand {
+    font-size: 1.75em;
+    font-weight: bold;
+    color: #49450a !important; 
+   /* font-family: 'Bradley Hand ITC', cursive; */
+    font-family: 'Ink Free', cursive;
+
+}
+  
+  .nav-link {
+    color: #ecf0f1 !important; 
+    margin-right: 15px;
+    font-size: 1.1em;
+  }
+  
+  .nav-link:hover {
+    color: #49450a !important;
+  }
+  
+  .btn.bg-white {
+    color: #49450a !important;
+    font-size: 1.1em;
+    border: 1px solid #ecf0f1;
+  }
+  
+  .btn.bg-white:hover {
+    background-color: #49450a !important; 
+    color: #ecf0f1 !important; 
+  }
+  
+  .btn.bg-white.text-danger {
+    border: 1px solid #e74c3c;
+  }
+  
+  .btn.bg-white.text-danger:hover {
+    background-color: #e74c3c !important; 
+    color: #ecf0f1 !important; 
+  }
+  

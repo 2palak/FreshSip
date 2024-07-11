@@ -1,0 +1,291 @@
+[
+    {
+        "CategoryName": "Sweet",
+        "SubCategories": [
+            {
+                "SubCategoryName": "Pies",
+                "Items": [
+                    {
+                        "_id": "1",
+                        "name": "Raspberry Pie",
+                        "img": "https://i.pinimg.com/564x/10/a1/9b/10a19bb490d4e98f98e451c777a10122.jpg",
+                        "description": "Delicious pie filled with fresh raspberries.",
+                        "Quantity": "1 slice",
+                        "options": [
+                            {
+                                "Regular": "160",
+                                "Sugar-free": "200"
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "2",
+                        "name": "Vanilla Pie",
+                        "img": "https://i.pinimg.com/564x/9f/b2/48/9fb24845551624c80110290d7f90ef4c.jpg",
+                        "description": "Classic vanilla-flavored pie with a flaky crust.",
+                        "Quantity": "1 slice",
+                        "options": [
+                            {
+                                "Regular": "120",
+                                "Gluten-free": "160"
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "3",
+                        "name": "Apple Pie",
+                        "img": "https://i.pinimg.com/564x/95/1d/40/951d40639370f49bf716b9d42d1897d1.jpg",
+                        "description": "Traditional apple pie made with cinnamon and apples.",
+                        "Quantity": "1 slice",
+                        "options": [
+                            {
+                                "Regular": "140",
+                                "Vegan": "280"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "SubCategoryName": "Pastries",
+                "Items": [
+                    {
+                        "_id": "4",
+                        "name": "Croissants",
+                        "img": "https://i.pinimg.com/736x/32/97/72/329772a5046f439202cb765614c96090.jpg",
+                        "description": "Buttery and flaky croissant.",
+                        "Quantity": "1 piece",
+                        "options": [
+                            {
+                                "Plain": "80",
+                                "Chocolate-filled": "130"
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "5",
+                        "name": "Danish Pastries",
+                        "img": "https://i.pinimg.com/564x/f9/7e/ae/f97eae87e943882bef22fd7e1f596e60.jpg",
+                        "description": "Assorted Danish pastries filled with fruit or cream cheese.",
+                        "Quantity": "1 piece",
+                        "options": [
+                            {
+                                "Blueberry": "250",
+                                "Cream Cheese": "200"
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "6",
+                        "name": "Macarons",
+                        "img": "https://i.pinimg.com/564x/c2/9e/be/c29ebe9133b375bb6e9b8c7051994dba.jpg",
+                        "description": "Colorful almond-based cookies with a variety of fillings.",
+                        "Quantity": "1 piece",
+                        "options": [
+                            {
+                                "Assorted Flavors": "300"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "SubCategoryName": "Ice Cream",
+                "Items": [
+                    {
+                        "_id": "7",
+                        "name": "Chocolate Ice Cream",
+                        "img": "https://i.pinimg.com/564x/da/0e/d8/da0ed8a78cc2effda936a6116bfa7003.jpg",
+                        "description": "Rich and creamy chocolate flavored ice cream.",
+                        "Quantity": "1 scoop",
+                        "options": [
+                            {
+                                "Regular": "90",
+                                "Vegan": "280"
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "8",
+                        "name": "Vanilla Ice Cream",
+                        "img": "https://i.pinimg.com/564x/8a/3d/1e/8a3d1e53bbe31a5998af2ade386ecf09.jpg",
+                        "description": "Smooth and creamy vanilla flavored ice cream.",
+                        "Quantity": "1 scoop",
+                        "options": [
+                            {
+                                "Regular": "60",
+                                "Gluten-free": "135"
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "9",
+                        "name": "Mint Chip Ice Cream",
+                        "img": "https://i.pinimg.com/564x/f7/5c/e7/f75ce79c99e13593dddfdfd255e904aa.jpg",
+                        "description": "Cool mint ice cream with chocolate chips.",
+                        "Quantity": "1 scoop",
+                        "options": [
+                            {
+                                "Regular": "115",
+                                "Dairy-free": "300"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CategoryName": "Savoury",
+        "SubCategories": [
+            {
+                "SubCategoryName": "Rolls",
+                "Items": [
+                    {
+                        "_id": "10",
+                        "name": "Spring Rolls",
+                        "img": "https://i.pinimg.com/564x/4d/1d/e0/4d1de0f3698d6d193066ad8ea1dfec63.jpg",
+                        "description": "Crispy spring rolls filled with vegetables and served with dipping sauce.",
+                        "Quantity": "1 roll",
+                        "options": [
+                            {
+                                "Vegetarian": "120",
+                                "Chicken": "145"
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "11",
+                        "name": "Chicken Rolls",
+                        "img": "https://i.pinimg.com/564x/2d/fc/e0/2dfce036fce830622119477ccf60ea79.jpg",
+                        "description": "Flavorful rolls stuffed with seasoned chicken.",
+                        "Quantity": "1 roll",
+                        "options": [
+                            {
+                                "Regular": "150",
+                                "Spicy": "150",
+                                "Extra Spicy": "160"
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "12",
+                        "name": "Vegetable Rolls",
+                        "img": "https://i.pinimg.com/564x/ce/68/2a/ce682a97579081bc5341b10b44ba5709.jpg",
+                        "description": "Vegetarian rolls filled with assorted vegetables.",
+                        "Quantity": "1 roll",
+                        "options": [
+                            {
+                                "Regular": "130",
+                                "Spicy": "130",
+                                "Extra Spicy": "140"
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "13",
+                        "name": "Cheese Rolls",
+                        "img": "https://i.pinimg.com/564x/db/1d/0e/db1d0ed09c1fc0c0d7c63ee9d2e599b3.jpg",
+                        "description": "Delicious rolls filled with melted cheese.",
+                        "Quantity": "1 roll",
+                        "options": [
+                            {
+                                "Regular": "145",
+                                "Gluten-free": "180"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "SubCategoryName": "Sandwiches",
+                "Items": [
+                    {
+                        "_id": "14",
+                        "name": "Ham Sandwich",
+                        "img": "https://i.pinimg.com/564x/15/81/4d/15814d85dc80f172318ffeab41b423b1.jpg",
+                        "description": "Classic sandwich with ham, cheese, lettuce, and tomato.",
+                        "Quantity": "1 sandwich",
+                        "options": [
+                            {
+                                "Regular": "250",
+                                "Whole Wheat Bread": "265"
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "15",
+                        "name": "Chicken Sandwich",
+                        "img": "https://i.pinimg.com/564x/48/f0/d4/48f0d414d06656740c9946ca4246d8b6.jpg",
+                        "description": "Grilled chicken breast sandwich with lettuce and mayonnaise.",
+                        "Quantity": "1 sandwich",
+                        "options": [
+                            {
+                                "Regular": "150",
+                                "Spicy": "150",
+                                "Extra Spicy": "160"
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "16",
+                        "name": "Veggie Sandwich",
+                        "img": "https://i.pinimg.com/564x/f7/b7/60/f7b7607564817c4a91ff5576078a71c6.jpg",
+                        "description": "Healthy sandwich filled with fresh vegetables.",
+                        "Quantity": "1 sandwich",
+                        "options": [
+                            {
+                                "Regular": "100",
+                                "Whole Wheat Bread": "115"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "SubCategoryName": "Pasta",
+                "Items": [
+                    {
+                        "_id": "17",
+                        "name": "Spaghetti",
+                        "img": "https://i.pinimg.com/736x/34/36/10/3436108fd4fdadcd352c8d662063a11f.jpg",
+                        "description": "Classic spaghetti pasta with marinara sauce.",
+                        "Quantity": "1 plate",
+                        "options": [
+                            {
+                                "Regular": "240",
+                                "Gluten-free": "280"
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "18",
+                        "name": "Penne",
+                        "img": "https://i.pinimg.com/564x/3a/ea/73/3aea73c93536a7b5aa09ff71c39c7fca.jpg",
+                        "description": "Penne pasta tossed in creamy Alfredo sauce.",
+                        "Quantity": "1 plate",
+                        "options": [
+                            {
+                                "Regular": "210",
+                                "Whole Wheat Pasta": "260"
+                            }
+                        ]
+                    },
+                    {
+                        "_id": "19",
+                        "name": "Macaroni",
+                        "img": "https://i.pinimg.com/564x/80/70/72/8070726a678ffa3e9f085d528aad7d3f.jpg",
+                        "description": "Macaroni pasta with cheese sauce.",
+                        "Quantity": "1 plate",
+                        "options": [
+                            {
+                                "Regular": "90",
+                                "Vegan Cheese": "140"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+}
+
+.btn-outline-success {
+    color: #ecf0f1;
+    border-color: #3498db;
+}
+
+.btn-outline-success:hover {
+    background-color: b3c9df;
+    border-color: b3c9df;
+}
+
+.carousel-item img {
+    filter: brightness(70%);
+}
+
+.carousel-caption input {
+    max-width: 500px;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 1.75em;
+    margin-top: 20px;
+}
+
+hr {
+    border-top: 1px solid #2c3e50;
+}
+
+.card {
+    width: 18rem; /* Adjust width for better layout */
+    margin: 2px; 
+    margin-bottom: 20px; /* Added space between cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure the card body takes full height */
+    background-color: #ecf0f1; /* Card background color */
+    border: 1px solid #ddd; /* Card border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
+}
+
+.card-body {
+    flex-grow: 1; /* Allow card body to grow */
+}
+
+.card-title {
+    color: #2c3e50;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 0.5rem; /* Space below title */
+}
+
+.card-text {
+    flex-grow: 1; /* Allow description to take available space */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit to 3 lines */
+    -webkit-box-orient: vertical;
+    color: #2c3e50; /* Text color */
+}
+
+.total-price {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.dropdown-custom {
+    background-color: #b3c9df !important;
+    color: rgb(17, 3, 58) !important;
+    border: none !important;
+    padding: 5px 10px !important;
+}
+
+.dropdown-custom option {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.card-container {
+    margin-bottom: 20px; /* Space between rows */
+    margin-right: 30px; /* Space between columns */
+}
+
+.home-container {
+    background-image: url('C:\Project MERN\mernapp\bg (2).png'); /* Update the path accordingly */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh; /* Ensure it covers the full height of the viewport */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Adds a slight white background to make content readable */
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
