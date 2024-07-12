@@ -87,7 +87,7 @@ hr {
 }
 
 .home-container {
-    background-image: url('C:\Project MERN\mernapp\bgg.png'); 
+    background-image: url('/bg_2.png'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
